@@ -1,24 +1,4 @@
 // REVERSE
-
-// function reverse(arr){
-//     // var len = arr.length
-//     for (var idx = arr.length - 1; idx >= 0; idx--){
-//         // arr[idx] = idx;
-//         console.log(idx)
-//         console.log(arr.length)
-//         for (var j = 0; j < arr.length; j++){
-//             arr[j] = arr[idx - j];
-//             // arr[j] = arr[arr.length[idx] - j];
-//             // console.log(arr)
-//         }
-//         return arr
-//     }
-//     // return arr
-// }
-
-// console.log(reverse([2, 4, 7, 11, 8]))
-
-// REVERSE
 function reverse(arr){
     var start = 0;
     var end = arr.length-1;
